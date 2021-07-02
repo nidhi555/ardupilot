@@ -1,0 +1,1 @@
+This branch is used to generate custom code for the MissionPlanner 1.3.71 firmware
