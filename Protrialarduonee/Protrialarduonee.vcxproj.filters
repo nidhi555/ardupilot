@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="trialcodes">
+      <UniqueIdentifier>{3b8a5c51-1759-4a25-ab6f-b6d1d741118c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ArduPlane\afs_plane.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\altitude.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\AP_Arming.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\ArduPlane.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\Attitude.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\avoidance_adsb.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\commands.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\commands_logic.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\control_modes.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\events.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\failsafe.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\GCS_Mavlink.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\GCS_Plane.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\geofence.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\is_flying.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\Log.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_acro.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_auto.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_autotune.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_avoidADSB.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_circle.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_cruise.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_fbwa.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_fbwb.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_guided.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_initializing.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_loiter.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_manual.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qacro.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qautotune.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qhover.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qland.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qloiter.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qrtl.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_qstabilize.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_rtl.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_stabilize.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_takeoff.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\mode_training.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\motor_test.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\navigation.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\parachute.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\Parameters.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\Plane.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\qautotune.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\quadplane.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\radio.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\RC_Channel.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\reverse_thrust.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\sensors.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\servos.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\soaring.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\system.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\tailsitter.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\takeoff.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\tiltrotor.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\tuning.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ArduPlane\version.cpp">
+      <Filter>trialcodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ArduPlane\afs_plane.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\AP_Arming.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\avoidance_adsb.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\config.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\defines.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\GCS_Mavlink.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\GCS_Plane.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\mode.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\Parameters.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\Plane.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\qautotune.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\quadplane.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\RC_Channel.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\tuning.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ArduPlane\version.h">
+      <Filter>trialcodes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\ArduPlane\createTags">
+      <Filter>trialcodes</Filter>
+    </None>
+    <None Include="..\ArduPlane\Makefile.waf">
+      <Filter>trialcodes</Filter>
+    </None>
+    <None Include="..\ArduPlane\wscript">
+      <Filter>trialcodes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\ArduPlane\release-notes.txt">
+      <Filter>trialcodes</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
